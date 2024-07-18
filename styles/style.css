@@ -67,7 +67,7 @@ header {
 }
 .banner-title {
   color: white;
-  font-size: 2.5rem;
+  font-size: 4.8rem;
   font-weight: 900;
   margin-bottom: 20px;
 }
@@ -124,11 +124,11 @@ header {
 }
 .image-position-1 {
   top: 35%;
-  right: 10%;
+  right: 20%;
 }
 .image-position-2 {
-  top: 68%;
-  right: 25%;
+  top: 72%;
+  left: 20%;
 }
 .number-1,
 .number-2 {
@@ -159,12 +159,12 @@ header {
   .navbar-container {
     flex-direction: row;
   }
-  /* banner responsive not done yet */
+  /* banner responsive  done  */
   .banner-part {
     flex-direction: column;
   }
   .banner-title {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
   .banner-details {
     font-size: 0.9rem;
@@ -186,11 +186,11 @@ header {
     font-size: 1.2rem;
   }
   .image-position-1 {
-    top: 40%;
-    right: 5%;
+    top: 42%;
+    right: 2%;
   }
   .image-position-2 {
     top: 75%;
-    right: 15%;
+    left: 5%;
   }
 }
