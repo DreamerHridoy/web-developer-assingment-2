@@ -91,7 +91,7 @@ main {
 }
 .banner-btn-1,
 .banner-btn-2 {
-  border: 1px solid #fff;
+  border: 1px solid;
   border-radius: 20px;
   font-size: 1rem;
   font-weight: 600;
@@ -172,6 +172,7 @@ main {
   font-size: 1rem;
   font-weight: 400;
   margin-top: 14px;
+  color: rgba(255, 255, 255, 0.5);
 }
 .habit-images {
   margin-top: 20px;
@@ -193,6 +194,51 @@ main {
   font-weight: 400;
   color: rgba(255, 255, 255, 0.5);
   margin-top: 10px;
+}
+/* run section  */
+.run-section {
+  max-width: 1060px;
+  margin: 0 auto;
+  border-radius: 18px;
+  background: rgb(34, 34, 34);
+  margin-top: 40px;
+}
+.extra-miles {
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+.run-text {
+  width: 50%;
+}
+.run-text h1 {
+  color: white;
+  font-size: 3rem;
+  font-weight: 900;
+}
+.run-text p {
+  font-size: 1rem;
+  font-weight: 400;
+}
+.run-img {
+  width: 50%;
+}
+
+.run-img img {
+  width: 100%;
+  border-radius: 14px;
+  object-fit: none;
+  object-position: 65% 34%;
+}
+.extra-miles-btn {
+  border: 1px solid gray;
+  border-radius: 20px;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 15px 25px;
+  margin-top: 40px;
+  background-color: rgb(230, 83, 60);
+  color: white;
 }
 
 /* responsive for mobile device  */
@@ -249,5 +295,19 @@ main {
   .habit-images {
     grid-template-columns: 1fr;
     gap: 10px;
+  }
+  /* extra-miles section  */
+  .extra-miles {
+    flex-direction: column;
+  }
+  .run-text {
+    width: 100%;
+  }
+  .run-img {
+    width: 100%;
+  }
+  .extra-miles-btn {
+    margin-bottom: 30px;
+    width: 100%;
   }
 }
