@@ -446,7 +446,6 @@ select {
 .footer-shape {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  justify-content: space-between;
   padding: 30px;
 }
 .footer-shape li {
@@ -472,6 +471,7 @@ select {
 .last-part-footer {
   margin-left: 200px;
 }
+
 /* responsive for mobile device  */
 @media screen and (max-width: 576px) {
   .navbar-container,
