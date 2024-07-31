@@ -422,11 +422,11 @@ select {
   grid-template-columns: repeat(3, 1fr);
   gap: 0.8rem;
 }
-.team-card h4,
-p {
+.team-card h4 {
   color: white;
   text-align: center;
 }
+
 .team-card {
   position: relative;
 }
@@ -434,6 +434,43 @@ p {
   position: absolute;
   top: 80%;
   left: 10%;
+}
+/* footer section  */
+.footer-section {
+  max-width: 1540px;
+  margin: 0 auto;
+  /* background: rgb(34, 34, 34); */
+  /* background: (255, 255, 255, 0.1); */
+  background: yellowgreen;
+}
+.footer-shape {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
+  padding: 30px;
+}
+.footer-shape li {
+  list-style: none;
+  padding: 8px;
+}
+
+.first-part-footer h1 {
+  color: rgb(230, 83, 60);
+  font-family: Inter;
+  font-size: 4.5rem;
+  font-weight: 800;
+  line-height: 120%;
+  letter-spacing: 0%;
+  margin-bottom: 8px;
+}
+.first-part-footer {
+  margin-left: 10px;
+}
+.middle-part-footer {
+  margin-left: 200px;
+}
+.last-part-footer {
+  margin-left: 200px;
 }
 /* responsive for mobile device  */
 @media screen and (max-width: 576px) {
@@ -526,5 +563,15 @@ p {
   /* team section  */
   .team-images {
     grid-template-columns: 1fr;
+  }
+  .footer-shape {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+  .middle-part-footer {
+    margin: 10px;
+  }
+  .last-part-footer {
+    margin: 10px;
   }
 }
