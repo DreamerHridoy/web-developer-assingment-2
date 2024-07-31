@@ -370,7 +370,27 @@ th {
 .calculation-bmi {
   width: 50%;
 }
-
+.calculation-bmi input,
+select {
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 10px;
+  margin: 15px;
+  width: 250px;
+}
+.field-size {
+  width: 530px;
+}
+.calculate-btn {
+  border: 1px solid;
+  border-radius: 20px;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 20px 30px;
+  background-color: rgb(230, 83, 60);
+  margin: 20px;
+  width: 200px;
+}
 /* responsive for mobile device  */
 @media screen and (max-width: 576px) {
   .navbar-container,
@@ -445,5 +465,18 @@ th {
   .row-2 {
     flex-direction: column;
     grid-template-columns: 1fr;
+  }
+  /* bmi-section  */
+  .bmi-section {
+    flex-direction: column;
+  }
+  .bmi-chart {
+    width: 100%;
+  }
+  .field-size {
+    width: 250px;
+  }
+  .calculation-bmi {
+    width: 100%;
   }
 }
